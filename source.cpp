@@ -156,7 +156,7 @@ void keyCheck() {
 		if (GetAsyncKeyState(VK_F3)) { 
 
 		}
-	}
+	} while (true); // have to add a while part to the do-while statement or else it won't compile
 }
 
 
